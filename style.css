@@ -1,0 +1,15 @@
+.player-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.player-images{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.players{
+    display: flex;
+    align-items: center;
+}
