@@ -1,3 +1,29 @@
+/* Utilities */
+body{
+    background-color: #e5e5e5;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+
+/* Start of first section */
+section > div > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562eff;
+}
 .player-cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -9,7 +35,12 @@
     border-radius: 50%;
 }
 
+.player-name{
+    margin-left: 16px;
+}
+
 .players{
     display: flex;
     align-items: center;
 }
+
